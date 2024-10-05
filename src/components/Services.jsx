@@ -1,4 +1,4 @@
-import { SERVICES_CONTENT } from "../constants/index.jsx";
+import { SERVICES_CONTENT } from "../constants";
 
 const Services = () => {
     return (
