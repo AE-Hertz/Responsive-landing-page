@@ -1,4 +1,4 @@
-import { HERO_CONTENT } from "../constants";
+import { HERO_CONTENT } from "../constants/index";
 
 const Hero = () => {
     return (
