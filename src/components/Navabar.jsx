@@ -1,7 +1,7 @@
 import { useState } from "react";
 import logo from "../assets/logo.png";
 import { RiCloseLine, RiMenu3Line } from "@remixicon/react";
-import { LINKS } from "../constants/index";
+import { LINKS } from "../constants/index.jsx";
 
 const Navabar = () => {
     const [isOpen, setIsOpen] = useState(false);
