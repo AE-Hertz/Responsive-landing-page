@@ -1,4 +1,4 @@
-import { PORTFOLIO_PROJECTS } from "./constants";
+import { PORTFOLIO_PROJECTS } from "../constants";
 
 const Portfolio = () => {
     return (
@@ -19,10 +19,10 @@ const Portfolio = () => {
                                 className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
                             />
                             <div className="absolute inset-0 flex flex-col items-center justify-center opacity-0 backdrop-blur-lg transition-opacity duration-500 group-hover:opacity-100">
-                                <h3 className="mb-2 text-xl font-medium ">
+                                <h3 className="mb-2 text-xl font-medium text-white">
                                     {project.name}
                                 </h3>
-                                <p className="mb-12 p-4 ">
+                                <p className="mb-12 p-4 text-white">
                                     {project.description}
                                 </p>
                             </div>

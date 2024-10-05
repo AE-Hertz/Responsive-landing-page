@@ -1,11 +1,11 @@
-import { SERVICES_CONTENT } from "./constants";
+import { SERVICES_CONTENT } from "../constants/index";
 
 const Services = () => {
     return (
         <section className="max-w-7xl mx-auto border-b-2" id="services">
             <div className="my-20">
                 <h2 className="text-xl lg:text-3xl tracking-tight text-center uppercase mb-20">
-                    MY LANDING PAGE WORK
+                    MY STACK
                 </h2>
                 {SERVICES_CONTENT.map((service, index) => (
                     <div
@@ -24,7 +24,7 @@ const Services = () => {
                             ></img>
                         </div>
                         <div
-                            className={`lg:w-1/2 flex flex-col ${
+                            className={`lg:w-1/2 flex flex-col pt-2 pl-4 hover:bg-black hover:text-white rounded-md ${
                                 index % 2 === 0 ? "lg:pl-12" : "lg:pr-12"
                             }`}
                         >

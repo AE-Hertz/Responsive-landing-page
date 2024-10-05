@@ -1,4 +1,4 @@
-import { HERO_CONTENT } from "./constants";
+import { HERO_CONTENT } from "../constants";
 
 const Hero = () => {
     return (
@@ -7,7 +7,7 @@ const Hero = () => {
                 <h1 className="text-6xl lg:text-[10rem] p-2 uppercase font-bold">
                     {HERO_CONTENT.title}
                 </h1>
-                <p className="lg:my-6 text-sm mb-4 font-medium tracking-tighter">
+                <p className="lg:my-6 text-m mb-4 font-bold tracking-wider">
                     {HERO_CONTENT.subtitle}
                 </p>
                 <img
